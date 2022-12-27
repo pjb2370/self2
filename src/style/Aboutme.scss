@@ -15,11 +15,12 @@
   .Aboutmeimg {
     width: 50%;
     align-items: center;
-    font-size: 17px;
+    font-size: 20px;
     margin: 0 auto;
 
     .imgas {
       align-items: center;
+
       .imgas1 {
         border-radius: 100%;
         margin: 0 auto;
@@ -29,28 +30,34 @@
     }
   }
 }
+
 .AboutmeMain {
   margin: 0 auto;
   width: 100%;
+
   .Aboutme1 {
     display: flex;
     width: 100%;
+
     .Aboutme1div {
       width: 200px;
       min-width: 0%;
-      font-size: 15px;
+      font-size: 20px;
       margin: 0 auto;
       display: flex;
       text-align: center;
       padding: 25px 0px 0px 0px;
       align-items: center;
+
       span:nth-child(1) {
-        padding: 10px;
+        padding: 30px;
         width: 200px;
       }
+
       div:nth-child(2) {
         text-align: center;
         width: 200px;
+
         div {
           font-weight: bold;
           width: 200px;
@@ -61,6 +68,7 @@
     }
   }
 }
+
 .Aboutme1icon {
   font-size: 40px;
 }

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div id="f" class="Navbar">
       <div class="Navbar-wrap">
         <div class="Navbar-image">
-          <img src="https://i.postimg.cc/TYTqFdGZ/image.jpg" alt="" />
+          <img src="https://i.postimg.cc/6qDbNgmp/image.jpg" alt="" />
         </div>
         <div class="Navbar-text">
           <div class="Navbar-text-main">

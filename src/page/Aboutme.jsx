@@ -3,7 +3,6 @@ import "../style/Aboutme.scss";
 import PersonIcon from "@mui/icons-material/Person";
 import PhoneIcon from "@mui/icons-material/Phone";
 import PlaceIcon from "@mui/icons-material/Place";
-import MailIcon from "@mui/icons-material/Mail";
 import CakeIcon from "@mui/icons-material/Cake";
 
 import ModeEditIcon from "@mui/icons-material/ModeEdit";
@@ -36,10 +35,11 @@ const Aboutme = () => {
                 <span class="Aboutme1icon">
                   <CakeIcon fontSize="" color="disabled" />
                 </span>
-                <div>생년월일</div>
+                <div>출생</div>
                 <div>96.08.01</div>
               </div>
             </div>
+
             <div class="Aboutme1div">
               <span class="Aboutme1icon">
                 <PhoneIcon fontSize="" color="disabled" />

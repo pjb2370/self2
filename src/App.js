@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Layout/Navbar";
 import Aboutme from "./page/Aboutme";
+import Projects from "./page/Projects";
 import "./App.scss";
-import ExpandLessIcon from "@mui/icons-material/ExpandLess";
 
 const App = () => {
   return (
@@ -14,6 +14,9 @@ const App = () => {
         <div className="Layoutcomponents">
           <div id="a">
             <Aboutme />
+          </div>
+          <div id="c">
+            <Projects />
           </div>
         </div>
       </div>
