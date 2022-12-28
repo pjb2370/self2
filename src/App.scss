@@ -26,7 +26,7 @@ body {
   opacity: 0.8;
   background-size: cover;
   height: 700px;
-  background-image: url("https://i.postimg.cc/6qDbNgmp/image.jpg");
+  background-image: url("https://i.ibb.co/dJ5K3vz/image.jpg");
 }
 
 .Navbar-text {
@@ -73,9 +73,9 @@ body {
       }
 
       div:nth-child(4) {
-        font-size: 20px;
       }
 
+      font-size: 20px;
       div:nth-child(5) {
         font-size: 20px;
       }
@@ -136,4 +136,36 @@ body {
     font-weight: bold;
     color: white;
   }
+}
+
+.상단이동 {
+  position: fixed;
+  bottom: 100px;
+  /* width: 100% */
+  right: 30px;
+  height: 50px;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+}
+
+.하단이동 {
+  position: fixed;
+  bottom: 30px;
+  /* width: 100% */
+  right: 30px;
+  height: 50px;
+  padding: 0.5rem 1rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
 }

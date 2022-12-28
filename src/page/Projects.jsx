@@ -132,7 +132,7 @@ const Projects = () => {
         </div>
         <div class="Projectslist1">
           <div class="slider1">
-            <img src="https://i.postimg.cc/XvCmrKPQ/image.png" />
+            <img src="https://i.postimg.cc/xdyMN3b1/image.jpg" />
           </div>
 
           <div class="Projectslist1_div">
@@ -147,17 +147,14 @@ const Projects = () => {
               기회가 되었습니다. 이후 다른 작업시 쉽게 이해는 계기가 되었습니다.
             </div>
 
-            <a
-              href="https://github.com/Leehg5/portfolio-PersonalProject-"
-              class="coin"
-            >
+            <a href="https://github.com/pjb2370/self2" class="coin">
               <button>깃허브 이동</button>
             </a>
             <hr />
             <table>
               <tbody>
                 <tr>
-                  <td>주요 기능</td>
+                  <td>주요기능</td>
                   <td>
                     간단한 자기소개, 인적 사항, 기술 스택, GitHub 및 카카오 Tv
                     링크, 프로젝트 경험, 학원 수업
@@ -173,7 +170,6 @@ const Projects = () => {
           </div>
         </div>
       </div>
-
       <br />
       <br />
       <br />
