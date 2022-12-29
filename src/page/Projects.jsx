@@ -20,6 +20,9 @@ const Projects = () => {
               <input type="radio" name="slide" id="slide3" checked />
               <input type="radio" name="slide" id="slide4" checked />
               <input type="radio" name="slide" id="slide5" checked />
+              <input type="radio" name="slide" id="slide6" checked />
+              <input type="radio" name="slide" id="slide7" checked />
+              <input type="radio" name="slide" id="slide8" checked />
               <ul id="imgholder" class="imgs">
                 <li>
                   <img src="https://i.postimg.cc/LsjGsgVw/1.png" />
@@ -36,6 +39,15 @@ const Projects = () => {
                 <li>
                   <img src="https://i.postimg.cc/MGfJQbkp/5.png" />
                 </li>
+                <li>
+                  <img src="https://i.postimg.cc/C566Y6RQ/6.jpg" />
+                </li>
+                <li>
+                  <img src="https://i.postimg.cc/HL4ZjLJ5/7.jpg" />
+                </li>
+                <li>
+                  <img src="https://i.postimg.cc/ZRzWsTjf/8.jpg" />
+                </li>
               </ul>
               <div class="bullets">
                 <div>각 게시판 사진 </div>
@@ -44,6 +56,9 @@ const Projects = () => {
                 <label for="slide3">상세페이지</label>
                 <label for="slide4">검색</label>
                 <label for="slide5">개인정보</label>
+                <label for="slide6">User</label>
+                <label for="slide7">Board</label>
+                <label for="slide8">Board_Img</label>
               </div>
             </div>
 
@@ -92,17 +107,19 @@ const Projects = () => {
                       로그인,회원가입,검색기능,실시간 인기글,증시 전일 데이테
                       API,코인 현시간 데이터 API,상세페이지,각게시판,로그인시
                       글쓰기,수정,삭제, 로그인시 댓글쓰기,삭제,관리자 기능,목록
-                      리스트화
+                      리스트화,이미지 업로드
                     </td>
                   </tr>
 
                   <tr>
                     <td>Frontend</td>
-                    <td>React,Tailwind,dasiy,Material-ul,Visual Studio Code</td>
+                    <td>
+                      React, Tailwind, dasiy, Material-ul, Visual Studio Code
+                    </td>
                   </tr>
                   <tr>
                     <td>Backend</td>
-                    <td>Spring Boot,IntelliJ, Postman</td>
+                    <td>Spring Boot, IntelliJ, Postman</td>
                   </tr>
                   <tr>
                     <td>Database</td>

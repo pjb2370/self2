@@ -1,10 +1,10 @@
 .Projects {
   height: 100%;
   width: 100%;
-  background-color: #1d809f;
+  background-color: greenyellow;
 
   .Projectstitle {
-    color: white;
+    color: black;
     font-size: 30px;
     text-align: center;
     padding: 50px 50px 50px 50px;
@@ -190,6 +190,24 @@ ul.imgs li img {
 }
 
 .slider input[type="radio"]:nth-child(5):checked ~ ul.imgs > li:nth-child(5) {
+  opacity: 1;
+  transition: 1s;
+  z-index: 1;
+}
+
+.slider input[type="radio"]:nth-child(6):checked ~ ul.imgs > li:nth-child(6) {
+  opacity: 1;
+  transition: 1s;
+  z-index: 1;
+}
+
+.slider input[type="radio"]:nth-child(7):checked ~ ul.imgs > li:nth-child(7) {
+  opacity: 1;
+  transition: 1s;
+  z-index: 1;
+}
+
+.slider input[type="radio"]:nth-child(8):checked ~ ul.imgs > li:nth-child(8) {
   opacity: 1;
   transition: 1s;
   z-index: 1;

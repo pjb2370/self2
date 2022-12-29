@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Layout/Navbar";
 import Aboutme from "./page/Aboutme";
 import Skill from "./page/Skill";
+import Archiving from "./page/Archiving";
 import Projects from "./page/Projects";
 import Career from "./page/Career";
 import Boot from "./page/Boot";
@@ -24,12 +25,15 @@ const App = () => {
             <Skill />
           </div>
           <div id="c">
-            <Projects />
+            <Archiving />
           </div>
           <div id="d">
-            <Career />
+            <Projects />
           </div>
           <div id="e">
+            <Career />
+          </div>
+          <div id="g">
             <Boot />
           </div>
         </div>
@@ -38,7 +42,7 @@ const App = () => {
       <Link to="f" spy={true} smooth={true}>
         <button class="상단이동">상단이동</button>
       </Link>
-      <Link to="e" spy={true} smooth={true}>
+      <Link to="g" spy={true} smooth={true}>
         <button class="하단이동">하단이동</button>
       </Link>
     </div>

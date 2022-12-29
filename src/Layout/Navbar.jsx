@@ -6,7 +6,7 @@ const Navbar = () => {
     <div id="f" class="Navbar">
       <div class="Navbar-wrap">
         <div class="Navbar-image">
-          <img src="https://i.postimg.cc/6qDbNgmp/image.jpg" alt="" />
+          <img src="https://i.postimg.cc/BntN4g3r/2.jpg" alt="" />
         </div>
         <div class="Navbar-text">
           <div class="Navbar-text-main">
@@ -18,6 +18,9 @@ const Navbar = () => {
             </Link>
             <Link to="c" spy={true} smooth={true}>
               <span>Project</span>
+            </Link>
+            <Link to="d" spy={true} smooth={true}>
+              <span>Career</span>
             </Link>
           </div>
           <div class="Navbar-text-table">
