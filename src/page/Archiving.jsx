@@ -19,7 +19,7 @@ const Archiving = () => {
           <div>
             소스 코드 저장소 <span>입니다.</span>
           </div>
-          <li>과거 프로젝트 , 현재 프로그랩 소스 코드</li>
+          <li>과거 프로젝트 , 현재 프로그램 소스 코드</li>
           <li>혼자 연습한 소스 코드</li>
         </div>
         <div class="Archivinglist_div">

@@ -27,7 +27,7 @@ const Navbar = () => {
             <div class="Navbar-text-table-row">
               <div class="Navbar-text-table-cell">
                 <div> - 박종범 - </div>
-                <div>웹 프로그래밍 개발자</div>
+                <div>풀스택 개발자</div>
 
                 <div>안녕하세요.</div>
                 <div>React, MYsql, Java, Spring Boot</div>
